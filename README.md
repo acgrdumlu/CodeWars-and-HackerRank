@@ -5,6 +5,7 @@ Here are my various solutions to challenges attempted on CodeWars.
 
 | #    | Difficulty | Challenge                                | Solution                              |
 | ---- | ---------- | ---------------------------------------- | ------------------------------------- |
+| 018  | 8 kyu      | [Well of Ideas - Easy Version](https://www.codewars.com/kata/57f222ce69e09c3630000212) |                                       |
 | 017  | 2 kyu      | [Decode the Morse code, for real](https://www.codewars.com/kata/54acd76f7207c6a2880012bb) |                                       |
 | 016  | 7 kyu      | [Operations With Sets](https://www.codewars.com/kata/5609fd5b44e602b2ff00003a) |                                       |
 | 015  | 4 kyu      | [Decode the Morse code, advanced](https://www.codewars.com/kata/54b72c16cd7f5154e9000457) |                                       |
@@ -22,4 +23,3 @@ Here are my various solutions to challenges attempted on CodeWars.
 | 003  | 6 kyu      | [Duplicate Encoder](https://www.codewars.com/kata/54b42f9314d9229fd6000d9c) |                                       |
 | 002  | 8 kyu      | [Broken Greetings](https://www.codewars.com/kata/50654ddff44f800200000001) | [Python](/Python/broken_greetings.py) |
 | 001  | 8 kyu      | [Multiply](https://www.codewars.com/kata/50654ddff44f800200000004) | [Python](/Python/multiply.py)         |
-
