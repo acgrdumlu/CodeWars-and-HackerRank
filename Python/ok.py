@@ -1,12 +1,12 @@
-SCORE = {'O': '0', 'o': '0', 'k': '1'}
-
-
 def okkOokOo(s):
 	ascii = ''
 	for w in s.split('?'):
 		binary = ''
 		for c in w:
-			binary += SCORE.get(c, '')
+			if c == 'O' or c == 'o':
+				binary += '0'
+			elif c == 'k':
+				binary += '1'
 		ascii += chr(int(binary, 2))
 
 	return ascii
