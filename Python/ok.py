@@ -1,21 +1,12 @@
-import re
-import binascii
+SCORE = {'O': '0', 'o': '0', 'k': '1'}
 
 
 def okkOokOo(s):
-	s = s.replace(" ", "")
-	s = s.replace(",", "")
-	s = re.split('[?!]\s*', s)
-	binary = ''
-
-	for w in s:
-		if 0 < len(w) < 8:
-			binary += '0'
+	ascii = ''
+	for w in s.split('?'):
+		binary = ''
 		for c in w:
-			if c == 'O' or c == 'o':
-				binary += '0'
-			elif c == 'k':
-				binary += '1'
+			binary += SCORE.get(c, '')
+		ascii += chr(int(binary, 2))
 
-	binary = int(binary, 2)
-	return binascii.unhexlify('%x' % binary)
+	return ascii
