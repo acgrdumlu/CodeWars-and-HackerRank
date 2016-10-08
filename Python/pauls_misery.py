@@ -5,10 +5,9 @@ misery = {
 	'eating': 1
 }
 
+
 def paul(x):
-	score = 0
-	for task in x:
-		score += misery.get(task, 0)
+	score = sum(misery[task] for task in x)
 	if score < 40:
 		return 'Super happy!'
 	elif 40 <= score < 70:
