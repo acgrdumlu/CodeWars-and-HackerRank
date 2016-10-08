@@ -1,8 +1,5 @@
-import math
+from math import sqrt
 
 
 def is_square(n):
-	if n >= 0:
-		return math.sqrt(n).is_integer()
-	else:
-		return False
+	return n >= 0 and sqrt(n).is_integer()
