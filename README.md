@@ -5,7 +5,7 @@ Here are my various solutions to challenges attempted on CodeWars.
 
 | #    | Difficulty | Challenge                                | Solution                                 |
 | ---- | ---------- | ---------------------------------------- | ---------------------------------------- |
-| 018  | 8 kyu      | [Well of Ideas - Easy Version](https://www.codewars.com/kata/57f222ce69e09c3630000212) | [Python](/Python/well_of_ideas.py)       |
+| 018  | 8 kyu      | [Well of Ideas - Easy Version](https://www.codewars.com/kata/57f222ce69e09c3630000212) | [Python](/Python/well_of_ideas.py) \| [JavaScript](/JavaScript/well_of_ideas.js) |
 | 017  | 2 kyu      | [Decode the Morse code, for real](https://www.codewars.com/kata/54acd76f7207c6a2880012bb) | [Python](https://github.com/joshpeng/Python-Morse-Code/blob/6f999a39b488483f91a77031618fd3460064c7ee/morse/morse.py) |
 | 016  | 7 kyu      | [Operations With Sets](https://www.codewars.com/kata/5609fd5b44e602b2ff00003a) | [Python](/Python/operations_with_sets.py) |
 | 015  | 4 kyu      | [Decode the Morse code, advanced](https://www.codewars.com/kata/54b72c16cd7f5154e9000457) | [Python](https://github.com/joshpeng/Python-Morse-Code/blob/4477403e7f35940dccf511e5448ec6fe2265a382/morse/morse.py) |
