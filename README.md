@@ -7,7 +7,8 @@ Difficulty is based on the Japanese martial arts ranking system. The lower the k
 
 | #    | Difficulty | Challenge                                | Solution                                 |
 | ---- | ---------- | ---------------------------------------- | ---------------------------------------- |
-| 020  | 4 kyu      | [CodeWar's style ranking system](https://www.codewars.com/kata/codewars-style-ranking-system) | [Python](/Python/ranking/ranking/ranking.py)     |
+| 021  | 6 kyu      | [Rectangle into Squares](https://www.codewars.com/kata/55466989aeecab5aac00003e) | [Python](/Python/rectangle/rectangle/rectangle.py) |
+| 020  | 4 kyu      | [CodeWar's style ranking system](https://www.codewars.com/kata/codewars-style-ranking-system) | [Python](/Python/ranking/ranking/ranking.py) |
 | 019  | 3 kyu      | [Can you get the loop?](http://www.codewars.com/kata/can-you-get-the-loop) | [Python](/Python/can_you_get_the_loop.py) |
 | 018  | 8 kyu      | [Well of Ideas - Easy Version](https://www.codewars.com/kata/57f222ce69e09c3630000212) | [Python](/Python/well_of_ideas.py) \| [JavaScript](/JavaScript/well_of_ideas.js) |
 | 017  | 2 kyu      | [Decode the Morse code, for real](https://www.codewars.com/kata/54acd76f7207c6a2880012bb) | [Python](https://github.com/joshpeng/Python-Morse-Code/blob/6f999a39b488483f91a77031618fd3460064c7ee/morse/morse.py) |
