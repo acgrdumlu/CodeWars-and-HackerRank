@@ -7,6 +7,7 @@ Difficulty is based on the Japanese martial arts ranking system. The lower the k
 
 | #    | Difficulty | Challenge                                | Solution                                 |
 | ---- | ---------- | ---------------------------------------- | ---------------------------------------- |
+| 022  | 6 kyu      | [Title Case](https://www.codewars.com/kata/title-case) | Python                                   |
 | 021  | 6 kyu      | [Rectangle into Squares](https://www.codewars.com/kata/55466989aeecab5aac00003e) | [Python](/Python/rectangle/rectangle/rectangle.py) |
 | 020  | 4 kyu      | [CodeWar's style ranking system](https://www.codewars.com/kata/codewars-style-ranking-system) | [Python](/Python/ranking/ranking/ranking.py) |
 | 019  | 3 kyu      | [Can you get the loop?](http://www.codewars.com/kata/can-you-get-the-loop) | [Python](/Python/can_you_get_the_loop.py) |
