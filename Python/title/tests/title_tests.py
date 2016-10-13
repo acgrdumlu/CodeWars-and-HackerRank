@@ -16,3 +16,7 @@ def test_all_upper():
 
 def test_all_lower():
 	assert_equal(title_case('the quick brown fox'), 'The Quick Brown Fox')
+
+
+def test_single_word():
+	assert_equal(title_case('ab', 'ab'), 'Ab')
