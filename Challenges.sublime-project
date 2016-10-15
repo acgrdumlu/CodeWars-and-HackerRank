@@ -15,8 +15,8 @@
 			[
 				"*.pyc",
 				".gitignore",
-				"CodeWars.sublime-project",
-				"CodeWars.sublime-workspace"
+				"Challenges.sublime-project",
+				"Challenges.sublime-workspace"
 			],
 			"folder_exclude_patterns":
 			[

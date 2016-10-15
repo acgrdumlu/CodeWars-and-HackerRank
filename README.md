@@ -1,9 +1,13 @@
-# CodeWars Challenges
+# Challenges
+Both [CodeWars](https://www.codewars.com) and [HackerRank](https://www.hackerrank.com) are great places to practice programming across multiple languages. The challenges offer a great hands-on mini-project style approach to learning and practicing beyond what books and blog posts can offer.
+
+
+
+
+### CodeWars Challenges
 Here are my various solutions to challenges attempted on CodeWars.
 
 Difficulty is based on the Japanese martial arts ranking system. The lower the kyu number, the more difficult the task.
-
-
 
 | #    | Difficulty | Challenge                                | Solution                                 |
 | ---- | ---------- | ---------------------------------------- | ---------------------------------------- |
@@ -30,3 +34,13 @@ Difficulty is based on the Japanese martial arts ranking system. The lower the k
 | 003  | 6 kyu      | [Duplicate Encoder](https://www.codewars.com/kata/54b42f9314d9229fd6000d9c) | [Python](/Python/duplicate_encoder.py)   |
 | 002  | 8 kyu      | [Broken Greetings](https://www.codewars.com/kata/50654ddff44f800200000001) | [Python](/Python/broken_greetings.py)    |
 | 001  | 8 kyu      | [Multiply](https://www.codewars.com/kata/50654ddff44f800200000004) | [Python](/Python/multiply.py)            |
+
+
+
+### HackerRank Challenges
+
+Here are my solutions for HackerRank challenges.
+
+| #    | Difficulty | Challenge                                | Solution |
+| ---- | ---------- | ---------------------------------------- | -------- |
+| 001  | Medium     | [Quicksort In-Place](https://www.hackerrank.com/challenges/quicksort3) | Python   |
