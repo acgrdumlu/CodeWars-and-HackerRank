@@ -41,6 +41,6 @@ Difficulty is based on the Japanese martial arts ranking system. The lower the k
 
 Here are my solutions for HackerRank challenges.
 
-| #    | Difficulty | Challenge                                | Solution |
-| ---- | ---------- | ---------------------------------------- | -------- |
-| 001  | Medium     | [Quicksort In-Place](https://www.hackerrank.com/challenges/quicksort3) | Python   |
+| #    | Difficulty | Challenge                                | Solution                              |
+| ---- | ---------- | ---------------------------------------- | ------------------------------------- |
+| 001  | Medium     | [Quicksort In-Place](https://www.hackerrank.com/challenges/quicksort3) | [Python](/Python/quicksort_lomuto.py) |
