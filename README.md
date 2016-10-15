@@ -41,6 +41,8 @@ Difficulty is based on the Japanese martial arts ranking system. The lower the k
 
 Here are my solutions for HackerRank challenges.
 
-| #    | Difficulty | Challenge                                | Solution                              |
-| ---- | ---------- | ---------------------------------------- | ------------------------------------- |
-| 001  | Medium     | [Quicksort In-Place](https://www.hackerrank.com/challenges/quicksort3) | [Python](/Python/quicksort_lomuto.py) |
+| #    | Difficulty     | Category                  | Challenge                                | Solution                              |
+| ---- | -------------- | ------------------------- | ---------------------------------------- | ------------------------------------- |
+| 002  | Medium - 50pts | Algorithms - Graph Theory | [Even Tree](https://www.hackerrank.com/challenges/even-tree) | [Python](/Python/even_tree.py)        |
+| 001  | Medium - 35pts | Algorithms - Sorting      | [Quicksort In-Place](https://www.hackerrank.com/challenges/quicksort3) | [Python](/Python/quicksort_lomuto.py) |
+
