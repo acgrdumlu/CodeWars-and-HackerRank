@@ -43,6 +43,7 @@ Here are my solutions for HackerRank challenges.
 
 | #    | Difficulty     | Category                         | Challenge                                | Solution                              |
 | ---- | -------------- | -------------------------------- | ---------------------------------------- | ------------------------------------- |
+| 005  | Easy - 15pts   | Algorithms - Strings             | [Camel Case](https://www.hackerrank.com/challenges/camelcase) | [Python](/Python/camel_case.py)       |
 | 004  | Easy - 15pts   | Algorithms - Warmup              | [Time Conversion](https://www.hackerrank.com/challenges/time-conversion) | [Python](/Python/time_conversion.py)  |
 | 003  | Medium - 50pts | Algorithms - Dynamic Programming | [Stock Maximize](https://www.hackerrank.com/challenges/stockmax) | [Python](/Python/stock_max.py)        |
 | 002  | Medium - 50pts | Algorithms - Graph Theory        | [Even Tree](https://www.hackerrank.com/challenges/even-tree) | [Python](/Python/even_tree.py)        |
