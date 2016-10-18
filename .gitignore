@@ -1,2 +1,3 @@
 Challenges.sublime-workspace
 *.pyc
+.vscode/.ropeproject/*
