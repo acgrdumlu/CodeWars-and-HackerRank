@@ -32,6 +32,10 @@ class Leaf(object):
 
 # Skip this section if nosetesting. This section is just for submission to HackerRank
 if __name__ == "__main__":
+    # Input format
+    # First line contains two integers N and M. N is the number of vertices, and M is the number
+    # of edges. The next M lines contain two integers U and V which specifies an edge of the tree.
+
     # Get tree definition from user
     tree_dimensions = [int(x) for x in raw_input().split()]
 
