@@ -7,9 +7,21 @@
         "**/.DS_Store": true,
         ".gitignore": true,
         ".vscode": true,
-        ".pylintrc": true,
+        "**/.pylintrc": true,
         "**/*.pyc": true,
         "*.sublime-project": true,
-        "*.sublime-workspace": true
-    }
+        "*.sublime-workspace": true,
+        "**/.noseids": true
+    },
+    "python.unitTest.nosetestArgs": [
+        "--stop",
+        "--verbosity=2",
+        "--rednose",
+        "./Python/bear_steady_gene/test",
+        "./Python/even_tree/test",
+        "./Python/longest_common_subsequence/test",
+        "./Python/ranking/test",
+        "./Python/rectangle/test",
+        "./Python/title/test"
+    ]
 }
