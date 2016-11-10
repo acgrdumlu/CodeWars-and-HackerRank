@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """This module stabilizes genes"""
 from __future__ import division
-from collections import Counter
 
 
 def stabilize(length, gene):
@@ -15,9 +14,9 @@ def stabilize(length, gene):
 
     # Count number of each amino acid (A,C,T,G) in the gene
     gene = gene.lower()
-    gene_counter = Counter(gene)
-    # Add a slot for any missing amino acids to the counter (this doesn't change the quantity of prexisting ones)
-    gene_counter.update({'a': 0, 'c': 0, 't': 0, 'g': 0})
+    gene_counter = {'a': 0, 'c': 0, 't': 0, 'g': 0}
+    # Use set and dict comprehension instead of Counter for performance reasons
+    gene_counter.update({amino_acid:gene.count(amino_acid) for amino_acid in set(gene)})
 
     # Determine the stabilization actions required
     stabilizer_reqs = {}
@@ -32,21 +31,30 @@ def stabilize(length, gene):
                 desired_removal_count = desired_removal_count + abs(action_quantity)
                 removal = removal + amino_acid
 
-    # Algo: start from beginning with desired removal count. If can't satisfy all required removals, +1 to its size
-    # Shit algo since inefficient
-    req_met = False
-    while not req_met:
-        for x in xrange(0, length):
-            test_sequence_counter = Counter(gene[x:x + desired_removal_count])
-            for amino_acid in removal:
-                if test_sequence_counter[amino_acid] == abs(stabilizer_reqs[amino_acid]):
-                    req_met = True
-        if not req_met:
-            desired_removal_count = desired_removal_count + 1
+    # Algo: Shrinking sliding window.
+    # Performance: 150k gene --> correct answer in 5 seconds with dictionary comprehension
+    #              If used Counter, it was 36 seconds
+    # Issue is if solution substring is large, performance degrades significantly. Need solution that doesn't count
+    i = 0
+    j = desired_removal_count
+    min_stabilizer_length = length
+    while j < length:
+        test_sequence_counter = {amino_acid:gene[i:j].count(amino_acid) for amino_acid in set(gene[i:j])}
+        req_met = True
+        for amino_acid in removal:
+            if amino_acid not in test_sequence_counter:
+                req_met = False
+            elif test_sequence_counter[amino_acid] < abs(stabilizer_reqs[amino_acid]):
+                req_met = False
+        if req_met:
+            min_stabilizer_length = min(min_stabilizer_length, j - i)
+            i = i + 1
+        elif j < length - 1:
+            j = j + 1
+        else:
+            break
 
-    # Algo: Shrinking sliding window
-
-    return desired_removal_count
+    return min_stabilizer_length
 
 
 # Skip this section if nosetesting. This section is just for submission to HackerRank
